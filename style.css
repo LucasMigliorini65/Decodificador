@@ -1,0 +1,148 @@
+* {
+   
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+
+
+.logo {
+    margin-left: 80px;
+    padding-top: 10px;
+    width:2%;
+    
+    
+}
+
+.mode {
+    width: 55px;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: #495057;
+    color: yellow;
+    padding: 0px;
+}
+.mode i {
+    background-color: #495057;
+}
+
+
+
+header {
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 1050px;
+    
+}
+
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+    background-color: #E5E5E5;
+    transition: background 0.5s linear ;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url("img/img-null.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    resize: none;
+    transition: background 0.5s linear ;
+}
+
+
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size:18px;
+    font-weight: bold;
+}
+/* /// dark mode*/
+
+body {
+    background: #E5E5E5;
+    transition: background 0.5s linear ;
+}
+.dark-mode {
+    background-color: black;
+  }
+
+.area-dark {
+    background-color: #495057;
+    color: #E5E5E5;
+}
+
+.area-dark::placeholder {
+    color: #D8DFE8;
+}
+
+.info-dark {
+    color: #D8DFE8;
+}
+
